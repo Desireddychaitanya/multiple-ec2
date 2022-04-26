@@ -1,13 +1,13 @@
 variable "aws_region" {
-  default = "eu-west-2"
+  default = "ap-south-1"
 }
 
 variable "profile" {
-  default = "MyAWS"
+  default = "multiple-ec2"
 }
 
 variable "ec2_ami" {
-  default = "ami-06178cf087598769c"
+  default = "ami-0a3277ffce9146b74 "
 }
 
 variable "instance_type" {
@@ -20,7 +20,7 @@ variable "ec2_keypair" {
 
 variable "ec2_count" {
   type = number
-  default = "3"
+  default = "1"
 }
 
 variable "environment" {
@@ -31,9 +31,9 @@ variable "product" {
   default = "sales"
 }
 variable "vpc_id" {
-  default = "vpc-a55717cd"
+  default = "vpc-024cd235aac191a85"
 }
 variable "subnets" {
-   default = ["subnet-5d861027","subnet-e33e9baf","subnet-70713b19"]
+   default = ["subnet-0f852ef5f8fd70e17","subnet-0f852ef5f8fd70e17"]
 }
 
