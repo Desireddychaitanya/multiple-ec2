@@ -17,6 +17,7 @@ resource "aws_security_group" "ec2-sg" {
   }
 commit -1
 commit -2
+commit-3
   tags = {
     Name = "ec2-sg"
   }
