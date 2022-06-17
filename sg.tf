@@ -20,3 +20,4 @@ resource "aws_security_group" "ec2-sg" {
     Name = "ec2-sg"
   }
 }
+changes made
