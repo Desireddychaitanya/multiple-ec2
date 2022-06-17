@@ -19,8 +19,5 @@ commit -1
 commit -2
 commit-3
 
-  tags = {
-    Name = "ec2-sg"
-  }
 }
 changes made
