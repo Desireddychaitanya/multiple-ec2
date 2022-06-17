@@ -16,5 +16,8 @@ resource "aws_security_group" "ec2-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+  tags = {
+    Name = "ec2-sg"
+  }
 }
 changes made
