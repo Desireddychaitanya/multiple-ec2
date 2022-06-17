@@ -33,9 +33,9 @@ variable "product" {
 variable "vpc_id" {
   default = "vpc-024cd235aac191a85"
 }
-1
-2
-3
+
+
+
 variable "subnets" {
    default = ["subnet-0f852ef5f8fd70e17","subnet-0f852ef5f8fd70e17"]
 }
