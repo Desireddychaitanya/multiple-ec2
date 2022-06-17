@@ -15,4 +15,4 @@ resource "aws_instance" "ec2" {
     Name = var.environment.var.product-count.index+1
   }
 }
-1
+2
